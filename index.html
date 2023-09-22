@@ -11,17 +11,16 @@
 <!-- Container that starts the Bootstrap Grid -->
 <div class="container">
     <!-- Row 1 - Header Row -->
-    <div class="row bg-white pb-5">
-        <div class="col">
-            <h1 class="text-center fw-bold">AmazingThings</h1>
-        </div>
+  <div class="row bg-primary pb-5 justify-content-center">
+        <div class="col-auto">
+            <h1 class="text-center fw-bold text-info">AmazingThings</h1>
+   </div>
 </div>
-    <!-- Nav Bar -->
-  
+ 
  <!-- Row 2 - Navbar -->
  <div class="row">
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-info" >
+        <div class="container-fluid text-warning">
             <a class="navbar-brand" href="#">AmazingThings</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,22 +38,115 @@
     </nav>
 </div>
 
+<div class="container mt-4">
+  <div class="row">
+
       <!-- Product 1 -->
-  <div class="container mt-4">
-    <div class="row">
+      <div class="col-md-3">
+          <div class="card">
+              <img src="https://picsum.photos/1000/200?random=1" class="card-img-top img-fluid" alt="missing_picture">
+              <div class="card-body">
+                  <h5 class="card-title">Best In Class Scissors</h5>
+                  <p class="card-text">$100</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img src="https://picsum.photos/1000/200?random=2" class="card-img-top img-fluid" alt="missing_picture">
+              <div class="card-body">
+                  <h5 class="card-title">Self Cleaning House</h5>
+                  <p class="card-text">$4000</p>
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Product 3 -->
       <div class="col-md-3">
         <div class="card">
-          <img src="path_to_image1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Product 1</h5>
-            <p class="card-text">$100</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
-          </div>
+            <img src="https://picsum.photos/1000/200?random=3" class="card-img-top img-fluid" alt="missing_picture">
+            <div class="card-body">
+                <h5 class="card-title">120in OLED TV</h5>
+                <p class="card-text">$2000</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
         </div>
       </div>
-      <!-- Repeat similar blocks for other products -->
+      <!-- Product 4 -->
+    <div class="col-md-3">
+      <div class="card">
+          <img src="https://picsum.photos/1000/200?random=4" class="card-img-top img-fluid" alt="missing_picture">
+          <div class="card-body">
+              <h5 class="card-title">Graphics Computer</h5>
+              <p class="card-text">$1000</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+      </div>
+    </div>
+
+  <!-- Product 5 -->
+  <div class="col-md-3">
+    <div class="card">
+        <img src="https://picsum.photos/1000/200?random=5" class="card-img-top img-fluid" alt="missing_picture">
+        <div class="card-body">
+            <h5 class="card-title">3D Printer</h5>
+            <p class="card-text">$1400</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
     </div>
   </div>
-  
+
+       <!-- Product 6 -->
+       <div class="col-md-3">
+        <div class="card">
+            <img src="https://picsum.photos/1000/200?random=6" class="card-img-top img-fluid" alt="missing_picture">
+            <div class="card-body">
+                <h5 class="card-title">120in OLED TV</h5>
+                <p class="card-text">$2000</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+        </div>
+      </div>
+      <!-- Product 7 -->
+    <div class="col-md-3">
+      <div class="card">
+          <img src="https://picsum.photos/1000/200?random=7" class="card-img-top img-fluid" alt="missing_picture">
+          <div class="card-body">
+              <h5 class="card-title">Graphics ML Computer</h5>
+              <p class="card-text">$2000</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+      </div>
+    </div>
+
+  <!-- Product 8 -->
+  <div class="col-md-3">
+    <div class="card">
+        <img src="https://picsum.photos/1000/200?random=8" class="card-img-top img-fluid" alt="missing_picture">
+        <div class="card-body">
+            <h5 class="card-title">3D Printer</h5>
+            <p class="card-text">$1400</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+    </div>
+  </div>
+
+</div>
+<!-- Copyright footer -->
+<footer class="text-secondary mt-4">
+  <div class="container py-3">
+      <div class="row">
+          <div class="col text-center">
+              &copy; <?php echo date("Y"); ?> AmazingThings and its affliates. All rights reserved.
+          </div>
+      </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
